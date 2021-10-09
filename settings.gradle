@@ -1,0 +1,19 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "AndroidLessons"
+include ':app'
+include ':lesson003_firstProject'
+include ':lesson004_basicview'
+include ':lesson005layoutfile'
+include ':lesson006tablelayout'
+include ':lesson007layoutprops'
+include ':lesson008viewbyid'
+include ':lesson009onclickbutton'
+include ':lesson010listener'
+include ':lesson010listeneractivitytry2'
