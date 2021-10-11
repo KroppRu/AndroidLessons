@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
         count = 0;
  //не важно какой говнокод будет написан дальше - проблемы вот уже в этих трех строчках:
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnDn.setOnClickListener(this);
         myText.setText(Integer.toString(count));
 
-        setContentView(R.layout.activity_main);
+
     }
 
     @Override
