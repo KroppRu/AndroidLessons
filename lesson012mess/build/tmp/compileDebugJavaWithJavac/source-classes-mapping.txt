@@ -1,0 +1,4 @@
+com/example/lesson012mess/BuildConfig.java
+ com.example.lesson012mess.BuildConfig
+com/example/lesson012mess/MainActivity.java
+ com.example.lesson012mess.MainActivity
