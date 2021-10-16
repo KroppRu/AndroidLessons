@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/lesson012mess" />
             <option value="$PROJECT_DIR$/lesson013simplemenu" />
             <option value="$PROJECT_DIR$/lesson014menuadv" />
+            <option value="$PROJECT_DIR$/lesson015contextmenu" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
