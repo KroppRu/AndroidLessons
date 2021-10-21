@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/lesson017dinamiclayout2" />
             <option value="$PROJECT_DIR$/lesson018dinamiclayout3" />
             <option value="$PROJECT_DIR$/lesson019simplecalculator" />
+            <option value="$PROJECT_DIR$/lesson020simpleanimation" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

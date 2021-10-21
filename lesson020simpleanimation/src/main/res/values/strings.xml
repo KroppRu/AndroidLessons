@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleAnimation</string>
+    <string name="alpha">Alpha</string>
+    <string name="combo">Combo</string>
+    <string name="rotate">Rotate</string>
+    <string name="scale">Scale</string>
+    <string name="trans">Trans</string>
+</resources>
