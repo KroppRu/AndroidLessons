@@ -35,6 +35,7 @@
             <option value="$PROJECT_DIR$/lesson025twoactivitylifecycle" />
             <option value="$PROJECT_DIR$/lesson026intentfilter" />
             <option value="$PROJECT_DIR$/lesson027getintentaction" />
+            <option value="$PROJECT_DIR$/lesson028intentextras" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
