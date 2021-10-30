@@ -36,6 +36,7 @@
             <option value="$PROJECT_DIR$/lesson026intentfilter" />
             <option value="$PROJECT_DIR$/lesson027getintentaction" />
             <option value="$PROJECT_DIR$/lesson028intentextras" />
+            <option value="$PROJECT_DIR$/lesson029simpleactivityresult" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
