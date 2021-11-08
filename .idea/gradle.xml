@@ -39,6 +39,7 @@
             <option value="$PROJECT_DIR$/lesson029simpleactivityresult" />
             <option value="$PROJECT_DIR$/lesson030activityresult" />
             <option value="$PROJECT_DIR$/lesson031simpleintents" />
+            <option value="$PROJECT_DIR$/lesson032simplebrowser" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
