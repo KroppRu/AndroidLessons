@@ -18,8 +18,8 @@ import com.google.android.material.textfield.TextInputEditText;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     final String LOG_TAG = "mylogs";
-    Button btnAdd, btnRead, btnClear;
-    TextInputEditText tietName, tietMail;
+    Button btnAdd, btnRead, btnClear, btnUpdate, btnDelete;
+    TextInputEditText tietName, tietMail, tietID;
     DBHelper dbhelper;
 
     @Override
@@ -29,13 +29,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tietName = (TextInputEditText) findViewById(R.id.tietName);
         tietMail = (TextInputEditText) findViewById(R.id.tietMail);
+        tietID = (TextInputEditText) findViewById(R.id.tietID);
 
         btnAdd = (Button) findViewById(R.id.btnAdd);
         btnRead = (Button) findViewById(R.id.btnRead);
         btnClear = (Button) findViewById(R.id.btnClear);
+        btnUpdate = (Button) findViewById(R.id.btnUpdate);
+        btnDelete = (Button) findViewById(R.id.btnDelete);
+
         btnAdd.setOnClickListener(this);
         btnRead.setOnClickListener(this);
         btnClear.setOnClickListener(this);
+        btnUpdate.setOnClickListener(this);
+        btnDelete.setOnClickListener(this);
 
         dbhelper = new DBHelper(this);
 
@@ -46,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         String name = tietName.getText().toString();
         String mail = tietMail.getText().toString();
+        String id = tietID.getText().toString();
 
         ContentValues cv = new ContentValues();
         cv.put("name",name);
@@ -91,6 +98,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // удаляем все записи
                 int clearCount = db.delete("mytable", null, null);
                 Log.d(LOG_TAG, "deleted rows count = " + clearCount);
+                break;
+            case R.id.btnUpdate:
+                if(id.equalsIgnoreCase("")) break;
+                Log.d(LOG_TAG,"--Updating my table row" + id);
+                // обновляем по id
+                int updCount = db.update("mytable", cv, "id = ?",
+                        new String[] { id });
+                Log.d(LOG_TAG, "updated rows count = " + updCount);
+                break;
+            case R.id.btnDelete:
+                if(id.equalsIgnoreCase("")) break;
+                Log.d(LOG_TAG,"--from mytable delete row" + id);
+                int delCount = db.delete("mytable","id = ?", new String[] {id});
+                Log.d(LOG_TAG,""+delCount+" rows was deleted");
                 break;
         }
         db.close();
