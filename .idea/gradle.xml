@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/lesson032simplebrowser" />
             <option value="$PROJECT_DIR$/lesson033sharedpreferences" />
             <option value="$PROJECT_DIR$/lesson034simplesqlite" />
+            <option value="$PROJECT_DIR$/lesson036sqlitequerry" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
