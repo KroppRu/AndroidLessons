@@ -43,6 +43,7 @@
             <option value="$PROJECT_DIR$/lesson033sharedpreferences" />
             <option value="$PROJECT_DIR$/lesson034simplesqlite" />
             <option value="$PROJECT_DIR$/lesson036sqlitequerry" />
+            <option value="$PROJECT_DIR$/lesson037sqliteinnerjoin" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
