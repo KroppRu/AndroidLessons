@@ -45,6 +45,22 @@ public class MainActivity extends AppCompatActivity {
         c.close();
         Log.d(TAGLOG, "--- ---");
 
+        Log.d(TAGLOG,"Посмотрим зп больше 110 c помощью rawquery");
+        String queryString = "Select PL.name as name, PS.name as position, PS.salary as salary from people as PL inner join position as PS on PL.posid = PS.id"+
+                " where salary > ? order by salary";
+        c = db.rawQuery(queryString, new String[]{"110000"});
+        logCursor(c);
+        c.close();
+        Log.d(TAGLOG, "--- ---");
+
+        Log.d(TAGLOG,"Посмотрим зп меньше 110 c помощью query");
+        c = db.query("people AS pl INNER JOIN position AS ps ON pl.posid = ps.id",new String[]{"pl.name as name", "ps.name as position", "ps.salary as salary"},
+                "salary < ?", new String[] {"110000"},null, null,"salary");
+        logCursor(c);
+        c.close();
+        Log.d(TAGLOG, "--- ---");
+
+        dbh.close();
 
     }
 
@@ -81,16 +97,18 @@ public class MainActivity extends AppCompatActivity {
 
             sqLiteDatabase.execSQL("create table position (id integer primary key, name text, salary integer);");
             for (int i = 0; i<position_id.length; i++ ) {
+                cv.clear();
                 cv.put("id",position_id[i]);
                 cv.put("name", position_name[i]);
                 cv.put("salary", position_salary[i]);
-                sqLiteDatabase.insert("positon",null,cv);
+                sqLiteDatabase.insert("position",null,cv);
             };
 
-            sqLiteDatabase.execSQL("create table people (id integer primary key autoincrement, name text, position integer);");
-            for (int i = 0; i<position_id.length; i++ ) {
+            sqLiteDatabase.execSQL("create table people (id integer primary key autoincrement, name text, posid integer);");
+            for (int i = 0; i<people_name.length; i++ ) {
+                cv.clear();
                 cv.put("name", people_name[i]);
-                cv.put("position", people_position[i]);
+                cv.put("posid", people_position[i]);
                 sqLiteDatabase.insert("people",null,cv);
             };
         }
