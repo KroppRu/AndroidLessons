@@ -44,6 +44,7 @@
             <option value="$PROJECT_DIR$/lesson034simplesqlite" />
             <option value="$PROJECT_DIR$/lesson036sqlitequerry" />
             <option value="$PROJECT_DIR$/lesson037sqliteinnerjoin" />
+            <option value="$PROJECT_DIR$/lesson038sqlitetransaction" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
