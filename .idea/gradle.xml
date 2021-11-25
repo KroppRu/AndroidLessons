@@ -49,6 +49,7 @@
             <option value="$PROJECT_DIR$/lesson040layoutinflater" />
             <option value="$PROJECT_DIR$/lesson041layoutinflaterlist" />
             <option value="$PROJECT_DIR$/lesson042simplelist" />
+            <option value="$PROJECT_DIR$/lesson043simplelistchoise" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

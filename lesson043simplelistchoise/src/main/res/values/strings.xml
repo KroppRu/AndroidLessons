@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SimpleListChoise</string>
+    <string name="button">Put checked to myLogs</string>
+    <string-array name="names">
+        <item>Vera</item>
+        <item>Chimera</item>
+        <item>Daria</item>
+        <item>Katia</item>
+        <item>Ludmila</item>
+        <item>Valeria</item>
+
+    </string-array>
+</resources>
