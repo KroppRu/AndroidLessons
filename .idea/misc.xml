@@ -62,6 +62,10 @@
         <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson044simplelistevents/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson045expandablelist/src/main/res/layout/activity_main.xml" value="0.1703125" />
         <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson046expandablelistevents/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson048simpleadapter/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18229166666666666" />
+        <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson048simpleadapter/src/main/res/drawable/ic_launcher_background.xml" value="0.18229166666666666" />
+        <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson048simpleadapter/src/main/res/layout/activity_main.xml" value="0.16614583333333333" />
+        <entry key="..\:/Learn/AndroidProject/AndroidLessons/lesson048simpleadapter/src/main/res/layout/item.xml" value="0.16614583333333333" />
       </map>
     </option>
   </component>
