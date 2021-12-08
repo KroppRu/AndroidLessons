@@ -57,6 +57,7 @@
             <option value="$PROJECT_DIR$/lesson049simpleadaptercustom1" />
             <option value="$PROJECT_DIR$/lesson050simpleadaptercustom2" />
             <option value="$PROJECT_DIR$/lesson051simpleadapterdata" />
+            <option value="$PROJECT_DIR$/lesson053simplecursortreeadapter" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
