@@ -59,6 +59,7 @@
             <option value="$PROJECT_DIR$/lesson051simpleadapterdata" />
             <option value="$PROJECT_DIR$/lesson053simplecursortreeadapter" />
             <option value="$PROJECT_DIR$/lesson054customadapter" />
+            <option value="$PROJECT_DIR$/lesson055headerfooter" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
