@@ -61,6 +61,7 @@
             <option value="$PROJECT_DIR$/lesson054customadapter" />
             <option value="$PROJECT_DIR$/lesson055headerfooter" />
             <option value="$PROJECT_DIR$/lesson056spinner" />
+            <option value="$PROJECT_DIR$/lesson057gridview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
