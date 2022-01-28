@@ -64,6 +64,7 @@
             <option value="$PROJECT_DIR$/lesson057gridview" />
             <option value="$PROJECT_DIR$/lesson068parcel" />
             <option value="$PROJECT_DIR$/lesson069parcellable" />
+            <option value="$PROJECT_DIR$/lesson070onsaveinstancestate" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
