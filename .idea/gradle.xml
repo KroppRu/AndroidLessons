@@ -65,6 +65,7 @@
             <option value="$PROJECT_DIR$/lesson068parcel" />
             <option value="$PROJECT_DIR$/lesson069parcellable" />
             <option value="$PROJECT_DIR$/lesson070onsaveinstancestate" />
+            <option value="$PROJECT_DIR$/lesson071preferencessimple" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
