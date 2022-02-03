@@ -67,6 +67,7 @@
             <option value="$PROJECT_DIR$/lesson070onsaveinstancestate" />
             <option value="$PROJECT_DIR$/lesson071preferencessimple" />
             <option value="$PROJECT_DIR$/lesson072preferencessimple2" />
+            <option value="$PROJECT_DIR$/lesson073preferencesenable" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
