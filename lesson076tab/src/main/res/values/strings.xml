@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tab</string>
+    <string name="tab1">First tab</string>
+    <string name="tab2">Second tab</string>
+    <string name="tab3">Third tab</string>
+    <string name="text_tab_header">Select tab</string>
+</resources>
